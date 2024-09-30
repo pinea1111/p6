@@ -65,7 +65,7 @@ The command above will create the project enviroment
                 app.run(debug=True)
     ```
 
-    2. **In the `index.html`** in the `templates` directory paste the code below:
+2. **In the `index.html`** in the `templates` directory paste the code below:
     ```html
     <!DOCTYPE html>
     <html lang="en">
@@ -122,7 +122,7 @@ The command above will create the project enviroment
     }
     ```
 
- ## Step 3: Running the Application
+ ## Running the Application
 
 ## Window Users
 ```bash
@@ -140,11 +140,10 @@ Open your browser and go to `http://127.0.0.1:5000` to see your application.
 
 ![2](img/Screenshot%20(207).png)
 
-### Step 4: Testing the API
+### Testing the API
 
-1. **Using Postman**:
-
-     ### What is Postman?
+**Using Postman**:
+ ### What is Postman?
 
     Postman is a popular API development and testing tool that simplifies the process of creating, testing, documenting, and sharing APIs. It provides a user-friendly interface to make HTTP requests, set request headers, define request parameters, and handle responses. Postman can be very helpful for developers working with APIs, as it allows them to quickly test endpoints, debug issues, and automate testing.
     Watch this short tutorial on how to use postman [here](https://www.youtube.com/watch?v=CLG0ha_a0q8)
