@@ -142,21 +142,20 @@ Open your browser and go to `http://127.0.0.1:5000` to see your application.
 
 ### Testing the API
 
-**Using Postman**:
- ### What is Postman?
+**Using Postman**: 
+### What is Postman?
 
-    Postman is a popular API development and testing tool that simplifies the process of creating, testing, documenting, and sharing APIs. It provides a user-friendly interface to make HTTP requests, set request headers, define request parameters, and handle responses. Postman can be very helpful for developers working with APIs, as it allows them to quickly test endpoints, debug issues, and automate testing.
-    Watch this short tutorial on how to use postman [here](https://www.youtube.com/watch?v=CLG0ha_a0q8)
+Postman is a popular API development and testing tool that simplifies the process of creating, testing, documenting, and sharing APIs. It provides a user-friendly interface to make HTTP requests, set request headers, define request parameters, and handle responses. Postman can be very helpful for developers working with APIs, as it allows them to quickly test endpoints, debug issues, and automate testing.
 
-    Download Postman if you haven't intsalled it before
+ Watch this short tutorial on how to use postman [here](https://www.youtube.com/watch?v=CLG0ha_a0q8)
 
-    Windows - [here](https://dl.pstmn.io/download/latest/win64)
+Download Postman if you haven't intsalled it before
 
+ Windows - [here](https://dl.pstmn.io/download/latest/win64)
  - Create a new request.
+![3](img/Screenshot%20(203).png)
 
- ![3](img/Screenshot%20(203).png)
-
- - Set the request type to `POST` and enter `http://127.0.0.1:5000/users`.
+- Set the request type to `POST` and enter `http://127.0.0.1:5000/users`.
 
 - Go to the Body tab, select `raw`, and choose `JSON` from the dropdown.
 - Enter the JSON data:
